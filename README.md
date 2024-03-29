@@ -1,26 +1,18 @@
-\# .gitignore 
-dist/ 
-.env*
+# Run client
+
+```bash
+cd client
+npm start
+```
 
 
-# dependencies
-client/node_modules
-client/.pnp
-client/.pnp.js
 
-# testing
-client/coverage
 
-# production
-client/build
 
-# misc
-.DS_Store
-.env.local
-.env.development.local
-.env.test.local
-.env.production.local
+# Run chain 
 
-client/npm-debug.log*
-client/yarn-debug.log*
-client/yarn-error.log*
+```bash
+cd chain
+aptos move publish 
+```
+
