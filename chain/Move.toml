@@ -1,0 +1,15 @@
+[package]
+name = "nft_cr_test"
+version = "1.0.0"
+authors = []
+
+[addresses]
+nftc = "8b072ef35a5246a75f41a451a71a7b3a75500aa382446acc6a6124b00c109f43"
+[dev-addresses]
+
+[dependencies.AptosTokenObjects]
+git = "https://github.com/aptos-labs/aptos-core.git"
+rev = "devnet"
+subdir = "aptos-move/framework/aptos-token-objects"
+
+[dev-dependencies]
