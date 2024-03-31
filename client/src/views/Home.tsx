@@ -10,19 +10,19 @@ type MenuItem = Required<MenuProps>['items'][number];
 
 const items: MenuItem[] = [
 	{
-		label: '购买',
+		label: 'Buy',
 		key: '/home',
 		icon: <MailOutlined />,
 	},
 	{
-		label: '发布',
+		label: 'Publish',
 		key: '/publish',
 		icon: <AppstoreOutlined />,
 		// disabled: true,
 	},
 	{
-		label: '行情',
-		key: '/marktting',
+		label: 'market',
+		key: '/market',
 		icon: <SettingOutlined />,
 		disabled: true,
 		children: [

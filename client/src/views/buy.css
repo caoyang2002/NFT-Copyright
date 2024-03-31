@@ -1,0 +1,66 @@
+.modal {
+	display: none;
+	/* 隐藏模态框 */
+	position: fixed;
+	/* 固定在屏幕上 */
+	z-index: 1;
+	/* 放在最顶层 */
+	left: 0;
+	top: 0;
+	width: 100%;
+	height: 100%;
+	overflow: auto;
+	/* 允许滚动 */
+	background-color: rgba(0, 0, 0, 0.4);
+	/* 半透明背景 */
+	padding-top: 60px;
+	/* 留出上边距 */
+	border-radius: 6px;
+}
+
+.modal-content {
+	background-color: #fefefe;
+	/* 白色背景 */
+	margin: 5% auto;
+	/* 居中 */
+	padding: 20px;
+	/* border: 1px solid #888; */
+	border-radius: 10px;
+	width: 30%;
+	/* 宽度为模态框的80% */
+}
+
+.modal-content img {
+	max-width: 100%;
+	height: auto;
+}
+
+.modal-content p {
+	margin-top: 4px;
+	margin-bottom: 2px;
+}
+
+.button-container {
+	display: flex;
+	justify-content: space-between;
+	position: absolute;
+	bottom: 10px;
+	/* width: 100%; */
+}
+
+.button-container button {
+	padding: 10px;
+	padding-left: 10px;
+	margin-right: 10px;
+	border: none;
+}
+
+.button-container h1 {
+	font-weight: bold;
+	margin-bottom: 0px;
+}
+
+.button-container a {
+	/* color: red; */
+	/* font-size: 14px; */
+}

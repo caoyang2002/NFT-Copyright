@@ -15,7 +15,7 @@ function App() {
       <Layout>
         <Row align="middle">
           <Col span={10} offset={2}>
-            <h1>NFT 版权交易</h1>
+            <h1>NFT Copyright Transaction</h1>
 
             {/* <Routes>
               {routes.map((route, index) => (

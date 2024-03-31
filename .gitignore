@@ -2,7 +2,6 @@
 client/dist/ 
 .env*
 
-
 # dependencies
 client/node_modules
 client/.pnp
